@@ -1,0 +1,53 @@
+body{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+report > name{
+    display: block;
+    font-weight: bold;
+}
+
+table {
+    margin-left: 0em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    border-left: 0.2em solid black;
+    border-spacing: 0px;
+    width: 95%;
+}
+
+table > caption{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: -0.25em;
+}
+
+td[colspan]{
+    color: #0000CC;
+}
+
+td{
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 0 0 0.1em 0;
+    line-height: 1.5em;
+}
+
+tr td.name,td.value{
+    text-align: right;
+    padding: 0em 1em 0em 1em;
+    font-family: monospace;
+}
+
+tr td.comment{
+    color: #009900 !important;
+    min-width: 60%;
+}
+
+tr:hover {
+    background: #F6F6F6;
+}
